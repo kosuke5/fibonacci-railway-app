@@ -21,7 +21,6 @@ function func(req, res) {
     if(num >= 0){
       const result = fib(num);
       res.json({
-        "status": 200,
         "result": result
       });
     } else {
